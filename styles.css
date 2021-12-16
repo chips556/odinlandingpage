@@ -144,3 +144,10 @@ blockquote {
   border-radius: 15px;
   color: white;
 }
+
+footer {
+  text-align: center;
+  color: #e5e7eb;
+  background-color: var(--herobackground);
+  padding: 2rem;
+}
