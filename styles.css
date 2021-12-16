@@ -10,6 +10,8 @@
   box-sizing: border-box;
 }
 
+/* nav section */
+
 nav {
   display: flex;
   padding: 1rem;
@@ -38,6 +40,7 @@ nav {
   font-weight: lighter;
 }
 
+/* hero section */
 .hero {
   background-color: var(--herobackground);
   display: flex;
@@ -64,6 +67,7 @@ nav {
   border-radius: 10px;
 }
 
+/* random info section */
 .random-info {
   display: flex;
   flex-direction: column;
@@ -94,5 +98,29 @@ nav {
 
 .info-images figcaption {
   width: 95%;
+  margin: auto;
+}
+
+/* quotes section */
+.quote {
+  background-color: var(--quotebackground);
+  padding: 3rem;
+}
+
+blockquote {
+  margin: 2rem auto;
+  width: 50%;
+  text-align: center;
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote p {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: right;
+  width: 50%;
   margin: auto;
 }
