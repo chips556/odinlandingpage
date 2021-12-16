@@ -121,6 +121,26 @@ blockquote {
   font-weight: bold;
   font-size: 20px;
   text-align: right;
-  width: 50%;
+  width: 45%;
   margin: auto;
+}
+
+.cta {
+  background-color: var(--ctabackground);
+  width: 70%;
+  color: white;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5rem auto;
+  border-radius: 15px;
+}
+
+.cta button {
+  background-color: var(--ctabackground);
+  border: 2px solid white;
+  padding: 0.5rem 2rem;
+  border-radius: 15px;
+  color: white;
 }
