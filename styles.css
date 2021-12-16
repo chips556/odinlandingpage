@@ -63,3 +63,36 @@ nav {
   padding: 0.5rem 2rem;
   border-radius: 10px;
 }
+
+.random-info {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  margin-bottom: 5rem;
+}
+
+.random-info h2 {
+  text-align: center;
+  padding-bottom: 2rem;
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1f2937;
+}
+
+.info-images {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.info-images img {
+  max-width: 100%;
+  border: 3px solid var(--ctabackground);
+  border-radius: 15px;
+}
+
+.info-images figcaption {
+  width: 95%;
+  margin: auto;
+}
