@@ -30,8 +30,36 @@ nav {
   align-self: flex-end;
 }
 
-.header-links a {
+.header-links a,
+.hero h4 {
   font-size: 18px;
   text-decoration: none;
   color: #e5e7eb;
+  font-weight: lighter;
+}
+
+.hero {
+  background-color: var(--herobackground);
+  display: flex;
+  justify-content: center;
+  padding: 6rem 3.5rem;
+  gap: 2rem;
+}
+
+.hero-left {
+  word-wrap: break-word;
+  width: 33%;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+}
+
+.hero button {
+  background-color: var(--ctabackground);
+  color: white;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
 }
